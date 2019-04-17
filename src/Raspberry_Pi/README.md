@@ -53,6 +53,24 @@ Once the system image is written to memory card, insert that memory card into ra
 * To start the vcn server from the putty terminal, type the command vncserver. Then vcn server will generate the number for the the raspberry pi.
 * Open the VCN Viewer application and select the corresponding window number. Then the user need to fill the username and password and then raspberry pi GUI will get open.
 
+## Connecting Ultrasonic sensor to raspberry pi 3.
+
+HC-SR 04 ultrasonic distance sensor is used to measure water level in storage tank. This sensor operates on 5V. The maximum measuring distance is 200cm.The Ultrasonic transmitter transmits an ultrasonic wave, this wave travels in air and when it gets objected by water it gets reflected back toward the sensor this reflected wave is observed by the Ultrasonic receiver. Once the signal is received by receiver using time distance speed formula we can calculate the water level in the tank. A basic ultrasonic sensor consists of one or more ultrasonic transmitters (basically speakers), a receiver, and a control circuit. The transmitters emit a high frequency ultrasonic sound, which bounce off any nearby objects. Some of that ultrasonic noise is reflected and detected by the receiver on the sensor. That return signal is then processed by the control circuit to calculate the time difference between the signal being transmitted and received. This time can subsequently be used, along with some clever math, to calculate the distance between the sensor and the reflecting object.
+
+### Connection with raspberry pi:
+
+### Connecting Relay to raspberry pi3.
+
+The single channel 5v relay is used to control the water pump. The operating voltage of the relay is 5v. This relay is connected to GPIO pin of raspberry pi. Whenever the moisture level is below threshold value water pump is switched on using the relay and also water pump is switched off once threshold level is reached.
+
+### Connecting relay to raspberry pi3:
+
+### Connecting Water pump to relay:
+
+Run the final_script_fyp.py from the src/rpi folder .
+
+NOTE: Before running the scripts create a csv file containing the ip addresses of all the nodemcus installed in the farm with the name: “nmcu_ip.csv”. Create another csv file with the name “ping_ip_list.csv”.
+
 
 
 
