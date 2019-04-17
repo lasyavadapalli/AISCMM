@@ -11,11 +11,11 @@ Once the download is finished, just click on the installer and start the install
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/Raspberry_Pi/pics/putty1.png)
 Just hit next to start the installation.
 The installer then asks for the Destination folder in which to install the software. Almost always it is best to use the default value. Just click Next.
-![The home page image is not found](https://github.com/cw-rashmi/AISCMM/tree/master/src/Raspberry_Pi/pics/putty2.png)
+![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/Raspberry_Pi/pics/putty2.png)
 Then, the installer asks to select product features to install. You probably want to add a shortcut on the desktop if you expect to use the software frequently. All the other options generally should be enabled. When ready, click Install.
-![The home page image is not found](https://github.com/cw-rashmi/AISCMM/tree/master/src/Raspberry_Pi/pics/putty2.png)
+![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/Raspberry_Pi/pics/putty3.png)
 When the installation has completed successfully, it should show a Completed screen. Click Finish to exit the installer.
-![The home page image is not found](https://github.com/cw-rashmi/AISCMM/tree/master/src/Raspberry_Pi/pics/putty4.png)
+![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/Raspberry_Pi/pics/putty4.png)
 ## VNC server
 ### DOWNLOAD INSTALLATION PACKAGE
 One can download latest version of putty from the site https://www.realvnc.com/en/connect/download/vnc/windows/ .The only need is to select the appropriate version of the installer compatible with the computer and operating system.
