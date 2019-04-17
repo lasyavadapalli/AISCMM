@@ -8,7 +8,7 @@ One can download latest version of putty from the site https://www.ssh.com/ssh/p
 ### STARTING THE INSTALLER
 Once the download is finished, just click on the installer and start the installation.
 ### CONFIGURING AND INSTALLING
-![The home page image is not found](https://github.com/cw-rashmi/AISCMM/tree/master/src/Raspberry_Pi/pics/putty1.png)
+![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/Raspberry_Pi/pics/putty1.png)
 Just hit next to start the installation.
 The installer then asks for the Destination folder in which to install the software. Almost always it is best to use the default value. Just click Next.
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/tree/master/src/Raspberry_Pi/pics/putty2.png)
