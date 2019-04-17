@@ -1,2 +1,2 @@
-# AISCMM
-The final year project repository
+# PCB Layouts
+This folder contains all pcb layouts made till date.
