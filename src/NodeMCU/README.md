@@ -4,12 +4,15 @@ Download the Arduino Software (IDE)
 Get the latest version from the https://www.arduino.cc/en/Main/Software. You can choose between the Installer (.exe) and the Zip packages. 
 When the download finishes, proceed with the installation and please allow the driver installation process when you get a warning from the operating system.
 Choose the components to be installed.
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/1.jpg)
 
 * Choose the installation directory (we suggest to keep the default one)
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/2.jpg)
 
 * The process will extract and install all the required files to execute properly the Arduino Software (IDE)
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/3.jpg)
 
 Once the installation is finished just hit the finish button.
@@ -17,27 +20,33 @@ Once the installation is finished just hit the finish button.
 ## Steps to Setup Arduino IDE for NODEMCU ESP8266
 * Install Arduino IDE software from the link http://www.arduino.cc/en/main/software.
 * Open File ->Preferences
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/4.jpg)
+
 
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/5.jpg)
 
 * Adding ESP8266 Board ManagerIn the Additional Boards Manager enter below URL.
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/6.jpg)
 
 The Boards Manager window opens, scroll the window page to bottom till you see the module with the name ESP8266. Once we get it, select that module and select version and click on the Install button. When it is installed it shows Installed in the module as shown in the figure and then close the window.
 
 * Selecting ESP8266 Arduino Board
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/7.jpg)
 
 * To run the esp8266 with Arduino we have to select the Board: “Arduino/Genuino Uno” and then change it to NodeMCU 1.0 (ESP-12E Module) or other esp8266 modules. This can be done by scrolling down, as shown in the figure.
 
 * Connecting ESP8266 to the PC
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/8.jpg)
 
 *  Let’s connect the ESP8266 module to your computer through USB cable as shown in the figure. When module is connected to the USB, COM port is detected eg: here COM5 is shown in the figure.
 
 * Selecting COM Port
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/9.jpg)
 
 * Upload the program to NodeMCU and check the output on the Serial Monitor
@@ -49,6 +58,7 @@ This sensor has 3 pins.
 Vcc - 5V
 Gnd - Gnd
 Data
+
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/10.jpg)
 
 ### Connecting Moisture Sensor to the Node MCU
