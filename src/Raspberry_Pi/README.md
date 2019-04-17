@@ -47,7 +47,7 @@ Once the memory card is formatted, it is ready for use. The next step is to down
 Once the system image is written to memory card, insert that memory card into raspberry pi and power on the raspberry pi. On the first boot it will take you through all the normal installation steps. Once you are done with that raspberry pi is ready for use.
 
 ## Running Raspberry Pi GUI:-
-![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/Raspberry_Pi/pics/5.png)
+![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/Raspberry_Pi/pics/5.jpg)
 * Run putty and enter the ip address of raspberry pi, choose connection type as SSH and hit open.
 * Once the raspberry pi is detected the putty will ask for the username and password for the raspberry pi. Once the raspberry login is successful the raspberry pi terminal will get opened.
 * To start the vcn server from the putty terminal, type the command vncserver. Then vcn server will generate the number for the the raspberry pi.
