@@ -1,2 +1,2 @@
-# AISCMM
-The final year project repository
+# Presentations
+Folder contains the all preesntations till date.
