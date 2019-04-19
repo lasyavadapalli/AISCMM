@@ -1,4 +1,8 @@
 # Code
+For installtion of this project only one machine is more sufficient. The visual studio, flask server, Arduino IDE all can be setup on a single machine.
+However to setup a remote flask server a seperate server can be installed.
+The entire code in implemented in Windows OS.
+
 The code for project is included in four parts
 * Flask server:
   Contains the code for the flask server and also contains the SQLite Database(aiscmm.db)
