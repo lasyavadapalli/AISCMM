@@ -4,7 +4,10 @@
 
 
 * Once the installer in installed it will ask for the different frameworks that one can install with visual studio. For our project following frameworks are necessary.
-
+- .NET Desktop Environment
+- Universal Windows Platform deveploment  
+- ASP.NET and Web Deveploment
+- Mobile development with .NET
 
 Install these all components.
 Once the visual studio is installed the project can be installed.
