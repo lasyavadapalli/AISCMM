@@ -2,9 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Farm Status"
-             x:Class="AISCM.FarmData">
+             x:Class="AISCM.FarmData"
+             xmlns:local="clr-namespace:AISCM">
     <ContentPage.Content>
         <StackLayout x:Name="Layout">
+            <Label Text="{local:Translate Rashmi}"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

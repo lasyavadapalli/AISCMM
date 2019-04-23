@@ -214,6 +214,7 @@ C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.csproj.App.config
+C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.csprojAssemblyReference.cache
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.Resources.AppResource.resources
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.Resources.AppResource.hi.resources
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.csproj.GenerateResource.cache
@@ -252,4 +253,3 @@ C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\hi\AISCM.resources.dll
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.csproj.CopyComplete
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.dll
 C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.pdb
-C:\Users\Rashmi\Documents\AISCM\AISCM\AISCM\obj\Debug\AISCM.csprojAssemblyReference.cache

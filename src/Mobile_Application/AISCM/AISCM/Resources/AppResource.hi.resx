@@ -120,8 +120,26 @@
   <data name="banana" xml:space="preserve">
     <value>केला</value>
   </data>
-  <data name="ChangeLanguage" xml:space="preserve">
+  <data name="Change Language" xml:space="preserve">
     <value>भाषा बदलो</value>
+  </data>
+  <data name="Your Farm" xml:space="preserve">
+    <value>आपका खेत</value>
+  </data>
+  <data name="Water Tank Status" xml:space="preserve">
+    <value>पानी की टंकी की स्थिति</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>घर</value>
+  </data>
+  <data name="Update PH" xml:space="preserve">
+    <value>PH को अपडेट करें</value>
+  </data>
+  <data name="Schemes" xml:space="preserve">
+    <value>योजनाएं</value>
+  </data>
+  <data name="Farm Data" xml:space="preserve">
+    <value>फार्म डेटा</value>
   </data>
   <data name="CropMarketing" xml:space="preserve">
     <value>फसल विपणन</value>
@@ -138,11 +156,29 @@
   <data name="Logout" xml:space="preserve">
     <value>ऐप से लॉगआउट करें</value>
   </data>
+  <data name="district" xml:space="preserve">
+    <value>अपना जिला चुनें</value>
+  </data>
   <data name="mango" xml:space="preserve">
     <value>आम</value>
   </data>
+  <data name="wheat" xml:space="preserve">
+    <value>गेहूँ</value>
+  </data>
+  <data name="feets" xml:space="preserve">
+    <value>फीटस में</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>क्षेत्र</value>
+  </data>
+  <data name="ph" xml:space="preserve">
+    <value>खेत का ph मूल्य:</value>
+  </data>
   <data name="MonitorStatusOfFarm" xml:space="preserve">
     <value>खेत की स्थिति</value>
+  </data>
+  <data name="TankHeight" xml:space="preserve">
+    <value>टैंक की ऊंचाई</value>
   </data>
   <data name="moong" xml:space="preserve">
     <value>मूंग</value>

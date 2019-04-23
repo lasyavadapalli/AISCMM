@@ -120,14 +120,29 @@
   <data name="banana" xml:space="preserve">
     <value>Banana</value>
   </data>
-  <data name="ChangeLanguage" xml:space="preserve">
+  <data name="Change Language" xml:space="preserve">
     <value>Change language</value>
+  </data>
+  <data name="Your Farm" xml:space="preserve">
+    <value>Your Farm</value>
   </data>
   <data name="CropMarketing" xml:space="preserve">
     <value>Crop Marketing</value>
   </data>
+  <data name="Water Tank Status" xml:space="preserve">
+    <value>Water Tank Status</value>
+  </data>
   <data name="FertilizersSuggested" xml:space="preserve">
     <value>Fertilizers Suggested</value>
+  </data>
+    <data name="Update PH" xml:space="preserve">
+    <value>Update PH</value>
+  </data>
+  <data name="Schemes" xml:space="preserve">
+    <value>Schemes</value>
+  </data>
+  <data name="Farm Data" xml:space="preserve">
+    <value>Farm Data</value>
   </data>
   <data name="groundnut" xml:space="preserve">
     <value>Groundnut</value>
@@ -135,14 +150,35 @@
   <data name="jackfruit" xml:space="preserve">
     <value>Jackfruit</value>
   </data>
+  <data name="district" xml:space="preserve">
+    <value>Select Your District</value>
+  </data>
   <data name="Logout" xml:space="preserve">
     <value>Logout</value>
+  </data>
+  <data name="wheat" xml:space="preserve">
+    <value>Wheat</value>
+  </data>
+    <data name="Home" xml:space="preserve">
+    <value>Home</value>
   </data>
   <data name="mango" xml:space="preserve">
     <value>Mango</value>
   </data>
+    <data name="ph" xml:space="preserve">
+    <value>ph value of farm:</value>
+  </data>
+  <data name="feets" xml:space="preserve">
+    <value>In Feets:</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
   <data name="MonitorStatusOfFarm" xml:space="preserve">
     <value>Monitor Status Of Farm</value>
+  </data>
+  <data name="TankHeight" xml:space="preserve">
+    <value>Tank Height</value>
   </data>
   <data name="moong" xml:space="preserve">
     <value>Moong</value>

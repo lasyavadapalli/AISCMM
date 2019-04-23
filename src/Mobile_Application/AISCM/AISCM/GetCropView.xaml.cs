@@ -28,7 +28,7 @@ namespace AISCM
             Email data = new Email();
             data.email = Global_portable.email;
             string json = JsonConvert.SerializeObject(data);
-            System.Diagnostics.Debug.WriteLine("Json object" + json);
+            //System.Diagnostics.Debug.WriteLine("Json object" + json);
             string url = "http://192.168.43.104:5010/get_crops";
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             using (var client = new HttpClient())
@@ -40,18 +40,18 @@ namespace AISCM
                     // ... Read the string.
                     Task<string> result2 = content3.ReadAsStringAsync();
                     res = result2.Result;
-                    System.Diagnostics.Debug.WriteLine("response in farm data page ress" + res);
+                    //System.Diagnostics.Debug.WriteLine("response in farm data page ress" + res);
                     Selected_class final = JsonConvert.DeserializeObject<Selected_class>(res);
                     foreach (var x in final.crop)
                     {
-                        System.Diagnostics.Debug.WriteLine(x);
+                        //System.Diagnostics.Debug.WriteLine(x);
                         cropList[j] = x;
                         j = j + 1;
                     }
-                    System.Diagnostics.Debug.WriteLine("the list is..."+cropList.ToString());
+                    //System.Diagnostics.Debug.WriteLine("the list is..."+cropList.ToString());
                 }
             }
-            System.Diagnostics.Debug.WriteLine("In the getcrops class..."+cropList[0]);
+            //System.Diagnostics.Debug.WriteLine("In the getcrops class..."+cropList[0]);
             getCrops = new ObservableCollection<GetCropModel>();
             for (int i = 0; i < j; i++)
             {
@@ -61,27 +61,22 @@ namespace AISCM
                 string translated_cropname = "";
 
                 cropName = cropList[i];
-                System.Diagnostics.Debug.WriteLine("getcrops class 1..." + cropName);
                 if (Global_portable.default_language != null)
                 {
                     CultureInfo.DefaultThreadCurrentCulture = new CultureInfo(Global_portable.default_language);
                     ResourceManager resourceManager = new ResourceManager(ResourceId, typeof(TranslateExtension).GetTypeInfo().Assembly);
                     string text_converted = resourceManager.GetString(cropName, CultureInfo.DefaultThreadCurrentCulture);
                     translated_cropname = text_converted;
-                    System.Diagnostics.Debug.WriteLine("getcrops class 2..." + translated_cropname);
                 }
                 else
                 {
                     //ResourceManager resourceManager = new ResourceManager(ResourceId, typeof(TranslateExtension).GetTypeInfo().Assembly);
                     string text_converted = cropName;
                     translated_cropname = text_converted;
-                    System.Diagnostics.Debug.WriteLine("getcrops class 3..." + translated_cropname);
                 }
                 getCrops.Add(new GetCropModel { CropName = translated_cropname });
 
             }
-
-
             lstView.ItemsSource = getCrops;
         }
     }

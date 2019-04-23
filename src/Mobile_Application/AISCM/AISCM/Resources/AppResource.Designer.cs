@@ -20,7 +20,7 @@ namespace AISCM.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class AppResource {
@@ -73,9 +73,9 @@ namespace AISCM.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Change language.
         /// </summary>
-        internal static string ChangeLanguage {
+        internal static string Change_Language {
             get {
-                return ResourceManager.GetString("ChangeLanguage", resourceCulture);
+                return ResourceManager.GetString("Change Language", resourceCulture);
             }
         }
         
@@ -85,6 +85,33 @@ namespace AISCM.Resources {
         internal static string CropMarketing {
             get {
                 return ResourceManager.GetString("CropMarketing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Your District.
+        /// </summary>
+        internal static string district {
+            get {
+                return ResourceManager.GetString("district", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Farm Data.
+        /// </summary>
+        internal static string Farm_Data {
+            get {
+                return ResourceManager.GetString("Farm Data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In Feets:.
+        /// </summary>
+        internal static string feets {
+            get {
+                return ResourceManager.GetString("feets", resourceCulture);
             }
         }
         
@@ -103,6 +130,15 @@ namespace AISCM.Resources {
         internal static string groundnut {
             get {
                 return ResourceManager.GetString("groundnut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home.
+        /// </summary>
+        internal static string Home {
+            get {
+                return ResourceManager.GetString("Home", resourceCulture);
             }
         }
         
@@ -152,6 +188,24 @@ namespace AISCM.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ph value of farm:.
+        /// </summary>
+        internal static string ph {
+            get {
+                return ResourceManager.GetString("ph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Region.
+        /// </summary>
+        internal static string Region {
+            get {
+                return ResourceManager.GetString("Region", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rice.
         /// </summary>
         internal static string Rice {
@@ -161,11 +215,29 @@ namespace AISCM.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Schemes.
+        /// </summary>
+        internal static string Schemes {
+            get {
+                return ResourceManager.GetString("Schemes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select Crop.
         /// </summary>
         internal static string SelectCrop {
             get {
                 return ResourceManager.GetString("SelectCrop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tank Height.
+        /// </summary>
+        internal static string TankHeight {
+            get {
+                return ResourceManager.GetString("TankHeight", resourceCulture);
             }
         }
         
@@ -188,6 +260,15 @@ namespace AISCM.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Update PH.
+        /// </summary>
+        internal static string Update_PH {
+            get {
+                return ResourceManager.GetString("Update PH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to View.
         /// </summary>
         internal static string View {
@@ -206,11 +287,38 @@ namespace AISCM.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Water Tank Status.
+        /// </summary>
+        internal static string Water_Tank_Status {
+            get {
+                return ResourceManager.GetString("Water Tank Status", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Welcome To My APP!!!.
         /// </summary>
         internal static string WelcomeText {
             get {
                 return ResourceManager.GetString("WelcomeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wheat.
+        /// </summary>
+        internal static string wheat {
+            get {
+                return ResourceManager.GetString("wheat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Farm.
+        /// </summary>
+        internal static string Your_Farm {
+            get {
+                return ResourceManager.GetString("Your Farm", resourceCulture);
             }
         }
     }

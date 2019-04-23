@@ -25,7 +25,7 @@ namespace AISCM
             if (Global_portable.default_language == null)
             {
                 if (Text == null)
-                    return null;
+                    return "omg";
 
                 c = CultureInfo.CurrentCulture;
                 

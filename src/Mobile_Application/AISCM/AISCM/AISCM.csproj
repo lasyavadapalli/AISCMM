@@ -180,10 +180,12 @@
     <EmbeddedResource Include="Resources\AppResource.hi.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResource.hi.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\AppResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

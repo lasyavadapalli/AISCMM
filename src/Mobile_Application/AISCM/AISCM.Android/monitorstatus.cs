@@ -27,8 +27,6 @@ namespace AISCM.Droid
 
             // Create your application here
             SetContentView(Resource.Layout.monitorstatus);
-            //net.azurewebsites.agc20171.AISCM aiscm = new net.azurewebsites.agc20171.AISCM();
-            net.azurewebsites.aiscm.WebService1 aiscm = new net.azurewebsites.aiscm.WebService1();
             MainActivity g = new MainActivity();
 
             TextView temp = FindViewById<TextView>(Resource.Id.textView3);
