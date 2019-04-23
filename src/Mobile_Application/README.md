@@ -53,7 +53,7 @@ For example:
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ad.gsn" android:installLocation="auto">
 ```
-Here package name is ** com.ad.gsn **
+Here package name is **com.ad.gsn**
 
 ## To build the Mobile application:-
 Once the code is opened in the visual studio and all prerequired packages are installed the user should build the code and verify that the mobile application is ready to run.
