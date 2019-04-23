@@ -53,6 +53,12 @@ To build the project:-
 * First set the project to be built by going to Solution EXplorer-> right click on the project and click on "Set as StartUp Project"
 * Now from the Menu bar goto the Build->Build Solution
 Once the project is built successfully the code can be deployed to either emulator or Mobile device.
+
+## Changing the flask server ip address
+Once the flask server is set up with the ip address and port number. The same ip address is required in mobile application to post the reqests to the flask server.
+Default the ip address of flask is 192.168.43.104 which need to be replaced by the new ip address.
+For doing the same preass ctrl+H then put the new ip address of the flask server->put the ip address to be replaced(192.168.43.104)->select Entire Solution->Click Replace all.
+
 ## To run the Mobile application there are two methods:-
 ### Using the Emulator :-
 One can select the appropriate emulator and run it to deploy the mobile application on the emulator.
