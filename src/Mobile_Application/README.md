@@ -47,6 +47,14 @@ cd C:\Program Files (x86)\Java\jdk1.8.0_181\bin
 keytool.exe -list -v -keystore debug.keystore -alias androiddebugkey -storepass android
 ```
 
+### To get the package name of the project:-
+* Go to Solution Explorer and open AndroidManifest.xml and find package name
+For example:
+```
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ad.gsn" android:installLocation="auto">
+```
+Here package name is ** com.ad.gsn **
+
 ## To build the Mobile application:-
 Once the code is opened in the visual studio and all prerequired packages are installed the user should build the code and verify that the mobile application is ready to run.
 To build the project:-
