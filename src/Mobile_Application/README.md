@@ -48,6 +48,11 @@ keytool.exe -list -v -keystore debug.keystore -alias androiddebugkey -storepass 
 ```
 
 ## To run the Mobile application there are two methods:-
+Once the code is opened in the visual studio and all prerequired packages are installed the user should build the code and verify that the mobile application is ready to run.
+To build the project:-
+* First set the project to be built by going to Solution EXplorer-> right click on the project and click on "Set as StartUp Project"
+* Now from the Menu bar goto the Build->Build Solution
+Once the project is built successfully the code can be deployed to either emulator or Mobile device.
 ### Using the Emulator :-
 One can select the appropriate emulator and run it to deploy the mobile application on the emulator.
 
