@@ -32,7 +32,40 @@ Once the project is open the next step is to install the packages required for t
 
 
 - For SHA-1 key refer this video https://www.youtube.com/watch?v=A59Oy_2yFIQ 
+OR
+### Commands for obtaining the SHA key:Prerequisites are to have java installed in machine.
+In order to get the SHA-1 key of visual studio one need to open debug.keystore file of visual studio that can be opened with the keytool.exe file present in the java bin directory. 
 
+* The location of the keytool is C:\Program Files (x86)\Java\jdk1.8.0_181\bin\keytool.exe
+* Open the cmd and go to the directory where keytool is present.
+```
+cd C:\Program Files (x86)\Java\jdk1.8.0_181\bin
+```
+* The debug.keystore is the file that contains the keystore for Visual Studio. This file can be found in the directory C:\Users\UserName\AppData\Local\Xamarin\Mono for Android\debug.keystore
+* This debug.keystore can be pasted in the keytool directory or the complete path can be mention in the place of debug.keystore 
+```
+keytool.exe -list -v -keystore debug.keystore -alias androiddebugkey -storepass android
+```
+
+### To get the package name of the project:-
+* Go to Solution Explorer and open AndroidManifest.xml and find package name
+For example:
+```
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ad.gsn" android:installLocation="auto">
+```
+Here package name is **com.ad.gsn**
+
+## To build the Mobile application:-
+Once the code is opened in the visual studio and all prerequired packages are installed the user should build the code and verify that the mobile application is ready to run.
+To build the project:-
+* First set the project to be built by going to Solution EXplorer-> right click on the project and click on "Set as StartUp Project"
+* Now from the Menu bar goto the Build->Build Solution
+Once the project is built successfully the code can be deployed to either emulator or Mobile device.
+
+## Changing the flask server ip address
+Once the flask server is set up with the ip address and port number. The same ip address is required in mobile application to post the reqests to the flask server.
+Default the ip address of flask is 192.168.43.104 which need to be replaced by the new ip address.
+For doing the same preass ctrl+H then put the new ip address of the flask server->put the ip address to be replaced(192.168.43.104)->select Entire Solution->Click Replace all.
 
 ## To run the Mobile application there are two methods:-
 ### Using the Emulator :-
