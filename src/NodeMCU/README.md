@@ -49,6 +49,10 @@ The Boards Manager window opens, scroll the window page to bottom till you see t
 
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/9.jpg)
 
+* Incle the DallasTemperature and OneWire packages by doing the following steps:
+1.download the DallasTemperature-3-8-0.zip and OneWire-2.3.3.zip from the src.
+2.in the arduino IDE, from the menu bar click on sketch and navigate to Sketch>Include Library>Add .ZIP Library and browse to the location and choose OneWire-2.3.3.zip. Repeat the steps to include DallasTemperature-3.8.0.zip
+
 * Upload the program to NodeMCU and check the output on the Serial Monitor
 
 ### Connecting Temperature Sensor to the Node MCU
@@ -63,8 +67,8 @@ Data
 
 ### Connecting Moisture Sensor to the Node MCU
  
-KG003 soil moisture sensor is used to measure the soil moisture. This is a simple water sensor that can be used to detect soil moisture. Module output is high level when the soil moisture deficit or output is low. The sensitivity can be adjusted by using the digital potentiometer. The output is available in both analog and digital format. In the project analog interfacing is used for accurate output. The soil moisture sensor consists of two probes. The two probes allow the current to pass through the soil and then it gets the resistance value to measure the moisture value. When there is more water, the soil will conduct more electricity which means that there will be less resistance. Therefore, the moisture level will be higher. Dry soil conducts electricity poorly, so when there will be less water, the soil will conduct less electricity which means that there will be more resistance. Therefore, the moisture level will be lower. The sensor has 4 pins. First two pins are Vcc and GND. The next two pins are output pins.A0 pin is giving analog output and D0 pin is giving digital output. We are using analog output of sensor to get readings. As raspberry pi does not have any analog pin, we have to use an ADC to convert analog output of sensor into digital. The ADC used here is ADS1115.
+KG003 soil moisture sensor is used to measure the soil moisture. This is a simple water sensor that can be used to detect soil moisture. Module output is high level when the soil moisture deficit or output is low. The sensitivity can be adjusted by using the digital potentiometer. The output is available in both analog and digital format. In the project analog interfacing is used for accurate output. The soil moisture sensor consists of two probes. The two probes allow the current to pass through the soil and then it gets the resistance value to measure the moisture value. When there is more water, the soil will conduct more electricity which means that there will be less resistance. Therefore, the moisture level will be higher. Dry soil conducts electricity poorly, so when there will be less water, the soil will conduct less electricity which means that there will be more resistance. 
 
 ![The home page image is not found](https://github.com/cw-rashmi/AISCMM/blob/master/src/NodeMCU/pics/11.jpg)
 
-**NOTE**: Before running the  scripts  for create a csv file containing the ip addresses of all the nodemcus installed in the farm with the name: “nmcu_ip.csv”. Create another csv file with the name “ping_ip_list.csv”.
+
