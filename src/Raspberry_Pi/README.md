@@ -53,6 +53,72 @@ Once the system image is written to memory card, insert that memory card into ra
 * To start the vcn server from the putty terminal, type the command vncserver. Then vcn server will generate the number for the the raspberry pi.
 * Open the VCN Viewer application and select the corresponding window number. Then the user need to fill the username and password and then raspberry pi GUI will get open.
 
+
+
+## Download and save the scripts final_script_fyp.py and alive_status_nmcu.py in a directory named AISCMM which is stored on the Desktop.(complete path: /home/pi/Desktop/AISCMM)
+To connect the raspberry pi to network follow the steps:
+ Run the following command in the terminal:
+sudo nano /etc/nework/interfaces
+
+Write the following lines and save:
+
+      source-directory /etc/network/interfaces.d
+      auto lo
+      iface lo inet loopback
+      iface eth0 inet dhcp
+      auto wlan0
+      allow-hotplug wlan0
+      iface wlan0 inet dhcp
+      wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+      iface default inet dhcp
+      allow-hotplug wlan1
+      iface wlan1 inet dhcp
+        wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+
+
+Save the file by Ctrl+x and then pess y. 
+	
+  b.    	Run the following command:
+			sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+		Type the following lines:
+			  country=IN
+        ctrl_interface=DIR=/var/run/wpa_supplicant
+        update_config=1
+        network={
+        			ssid="your ssid"
+        			psk="your password"
+        }
+	c.  	Reboot the raspberry pi.
+
+3.   	create a csv file with name : nmcu_ip.csv in the AISCMM directory.
+	In this file enter the id and ip addesrres of the nodemcus installed in the farm.
+	The format to store is:
+		Eg. 	1_nmcu,192.168.43.240
+          2_nmcu,192.168.43.86
+          3_nmcu,192.168.43.119
+          4_nmcu,192.168.43.100
+          
+          
+4. Make the following changes in the script final_script_fyp.py
+	
+Line no 16,17 and 18: change the ip addresses in the variables of URL_get_data URL_update_mois_data and URL_delete_ip to the ip address of the flask server.
+
+5. Make the following changes in the alive_status_nmcu.pi script:
+Line 17. Change the ip address in the variable URL to the ip address of the flask server.
+
+6. Steps to autorun the scripts on raspberry pi:
+	Run the following command:
+	Sudo nano /etc/profile
+	
+	append the following lines in the end:
+
+sudo python /home/pi/Desktop/AISCMM/final_script_fyp.py &
+sudo python /home/pi/Desktop/AISCMM/alive_status_nmcu.py &
+
+ Now upon reboot the scripts will run on boot up.
+
+
+
 ## Connecting Ultrasonic sensor to raspberry pi 3.
 
 HC-SR 04 ultrasonic distance sensor is used to measure water level in storage tank. This sensor operates on 5V. The maximum measuring distance is 200cm.The Ultrasonic transmitter transmits an ultrasonic wave, this wave travels in air and when it gets objected by water it gets reflected back toward the sensor this reflected wave is observed by the Ultrasonic receiver. Once the signal is received by receiver using time distance speed formula we can calculate the water level in the tank. A basic ultrasonic sensor consists of one or more ultrasonic transmitters (basically speakers), a receiver, and a control circuit. The transmitters emit a high frequency ultrasonic sound, which bounce off any nearby objects. Some of that ultrasonic noise is reflected and detected by the receiver on the sensor. That return signal is then processed by the control circuit to calculate the time difference between the signal being transmitted and received. This time can subsequently be used, along with some clever math, to calculate the distance between the sensor and the reflecting object.
